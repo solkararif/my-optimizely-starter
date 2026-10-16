@@ -1,0 +1,56 @@
+{
+  "name": "optimizely-saas-starter",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "packageManager": "yarn@4.13.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && opti-graph webhook:create",
+    "build:full": "graphql-codegen && next build && yarn opti-graph webhook:create",
+    "start": "next start",
+    "lint": "next lint",
+    "compile": "graphql-codegen",
+    "watch": "graphql-codegen -w",
+    "webhook:create": "yarn opti-graph webhook:create",
+    "webhook:list": "yarn opti-graph webhook:list",
+    "opti-graph": "npx -y @remkoj/optimizely-graph-cli@latest"
+  },
+  "dependencies": {
+    "@remkoj/optimizely-cms-nextjs": "latest",
+    "@remkoj/optimizely-cms-react": "latest",
+    "@remkoj/optimizely-graph-client": "latest",
+    "dotenv": "^17.3.1",
+    "dotenv-expand": "^12.0.3",
+    "entities": "^6.0.1",
+    "graphql": "^16.13.1",
+    "graphql-request": "^6.1.0",
+    "graphql-tag": "^2.12.6",
+    "next": "14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.7",
+    "@graphql-codegen/fragment-matcher": "^5.1.0",
+    "@graphql-typed-document-node/core": "^3.2.0",
+    "@remkoj/optimizely-cms-api": "latest",
+    "@remkoj/optimizely-cms-cli": "latest",
+    "@remkoj/optimizely-graph-functions": "latest",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@types/node": "^22.19.15",
+    "@types/react": "^18.3.28",
+    "@types/react-dom": "^18.3.7",
+    "@yarnpkg/sdks": "^3.2.3",
+    "chalk": "^5.6.2",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.35",
+    "figures": "^6.1.0",
+    "postcss": "^8.5.8",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3"
+  },
+  "resolutions": {
+    "@graphql-codegen/visitor-plugin-common": "file:./packages/graphql-codegen-visitor-plugin-common-v5.8.0-patched.tgz"
+  }
+}
