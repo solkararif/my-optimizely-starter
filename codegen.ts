@@ -35,7 +35,8 @@ const config: CodegenConfig = {
         'src/**/*.graphql',
 
         // Add Definitions from components
-        'src/**/!(*.d).{ts,tsx}'
+		'src/components/cms/**/!(*.d).{ts,tsx}'
+       // 'src/**/!(*.d).{ts,tsx}'
     ],
     generates: {
         './src/gql/': {
