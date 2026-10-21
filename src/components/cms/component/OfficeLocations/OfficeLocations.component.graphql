@@ -1,0 +1,5 @@
+fragment OfficeLocationsData on OfficeLocations {
+  title
+  subtitle
+  offices { ...IContentListItem }
+}

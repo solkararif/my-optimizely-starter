@@ -1,0 +1,5 @@
+fragment ArticleData on Article {
+  heading
+  subtitle
+  body { json, html }
+}

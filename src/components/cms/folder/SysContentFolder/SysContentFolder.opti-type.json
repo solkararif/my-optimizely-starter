@@ -1,0 +1,15 @@
+{
+  "key": "SysContentFolder",
+  "displayName": "",
+  "description": "Used as content folder",
+  "baseType": "_folder",
+  "isContract": false,
+  "sortOrder": 10020,
+  "mayContainTypes": [
+    "*"
+  ],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "contracts": [],
+  "properties": {}
+}

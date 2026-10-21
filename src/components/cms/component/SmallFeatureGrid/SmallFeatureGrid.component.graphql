@@ -1,0 +1,3 @@
+fragment SmallFeatureGridData on SmallFeatureGrid {
+  smallFeatures { ...IContentListItem }
+}

@@ -1,0 +1,51 @@
+{
+  "key": "MonthlySpecial",
+  "displayName": "Monthly Special",
+  "description": "",
+  "baseType": "_component",
+  "isContract": false,
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [
+    "sectionEnabled"
+  ],
+  "contracts": [],
+  "properties": {
+    "title": {
+      "type": "string",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    },
+    "subtitle": {
+      "type": "string",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    },
+    "blog": {
+      "type": "content",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [
+        "BlogCard"
+      ],
+      "restrictedTypes": []
+    }
+  }
+}

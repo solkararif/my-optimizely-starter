@@ -1,0 +1,5 @@
+fragment LandingPageData on LandingPage {
+  TopContentArea { ...IContentListItem }
+  MainContentArea { ...IContentListItem }
+  SeoSettings { ...PageSeoSettingsPropertyData }
+}

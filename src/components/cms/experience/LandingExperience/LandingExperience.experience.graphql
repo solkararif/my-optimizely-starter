@@ -1,0 +1,3 @@
+fragment LandingExperienceData on LandingExperience {
+  hero { ...HeroPropertyData }
+}

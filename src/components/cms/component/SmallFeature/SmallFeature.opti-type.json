@@ -1,0 +1,49 @@
+{
+  "key": "SmallFeature",
+  "displayName": "Small feature",
+  "description": "",
+  "baseType": "_component",
+  "isContract": false,
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "contracts": [],
+  "properties": {
+    "heading": {
+      "type": "string",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    },
+    "image": {
+      "type": "contentReference",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [
+        "_image"
+      ],
+      "restrictedTypes": []
+    },
+    "body": {
+      "type": "richText",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    }
+  }
+}

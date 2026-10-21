@@ -1,0 +1,5 @@
+fragment BlogExperienceData on BlogExperience {
+  title
+  subtitle
+  articles { ...IContentListItem }
+}

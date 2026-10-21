@@ -1,0 +1,7 @@
+fragment VideoFeatureData on VideoFeature {
+  heading
+  body { json, html }
+  thumbnail_image { ...ReferenceData }
+  thumbnail_caption
+  video_link
+}

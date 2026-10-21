@@ -1,0 +1,4 @@
+fragment FAQData on FAQ {
+  heading
+  body { json, html }
+}

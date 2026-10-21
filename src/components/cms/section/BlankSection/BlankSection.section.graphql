@@ -1,0 +1,3 @@
+fragment BlankSectionData on BlankSection {
+  empty: _metadata { key }
+}

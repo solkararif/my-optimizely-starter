@@ -1,0 +1,4 @@
+fragment TileData on Tile {
+  title
+  description
+}

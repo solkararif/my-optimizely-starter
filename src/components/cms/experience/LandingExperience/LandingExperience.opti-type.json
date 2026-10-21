@@ -1,0 +1,26 @@
+{
+  "key": "LandingExperience",
+  "displayName": "Landing Experience",
+  "description": "",
+  "baseType": "_experience",
+  "isContract": false,
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "contracts": [],
+  "properties": {
+    "hero": {
+      "type": "component",
+      "contentType": "Hero",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    }
+  }
+}

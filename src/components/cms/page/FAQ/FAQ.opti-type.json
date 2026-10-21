@@ -1,0 +1,38 @@
+{
+  "key": "FAQ",
+  "displayName": "FAQ",
+  "description": "",
+  "baseType": "_page",
+  "isContract": false,
+  "sortOrder": 0,
+  "mayContainTypes": [
+    "Article"
+  ],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "contracts": [],
+  "properties": {
+    "heading": {
+      "type": "string",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    },
+    "body": {
+      "type": "richText",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    }
+  }
+}

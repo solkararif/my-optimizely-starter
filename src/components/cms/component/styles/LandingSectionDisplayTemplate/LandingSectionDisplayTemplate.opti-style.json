@@ -1,0 +1,23 @@
+{
+  "key": "LandingSectionDisplayTemplate",
+  "displayName": "LandingSectionDisplayTemplate",
+  "baseType": "_component",
+  "isDefault": true,
+  "settings": {
+    "background": {
+      "displayName": "Background",
+      "editor": "select",
+      "sortOrder": 0,
+      "choices": {
+        "red": {
+          "displayName": "Red",
+          "sortOrder": 0
+        },
+        "blue": {
+          "displayName": "Blue",
+          "sortOrder": 1
+        }
+      }
+    }
+  }
+}

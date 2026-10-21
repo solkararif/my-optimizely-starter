@@ -1,0 +1,32 @@
+{
+  "key": "SmallFeatureGrid",
+  "displayName": "Small feature grid",
+  "description": "",
+  "baseType": "_component",
+  "isContract": false,
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "contracts": [],
+  "properties": {
+    "smallFeatures": {
+      "type": "array",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": [],
+      "items": {
+        "type": "content",
+        "allowedTypes": [
+          "SmallFeature"
+        ],
+        "restrictedTypes": []
+      }
+    }
+  }
+}

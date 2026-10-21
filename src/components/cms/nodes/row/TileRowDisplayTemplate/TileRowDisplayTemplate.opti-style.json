@@ -1,0 +1,27 @@
+{
+  "key": "TileRowDisplayTemplate",
+  "displayName": "TileRowDisplayTemplate",
+  "nodeType": "row",
+  "isDefault": false,
+  "settings": {
+    "padding": {
+      "displayName": "Padding",
+      "editor": "select",
+      "sortOrder": 0,
+      "choices": {
+        "small": {
+          "displayName": "Small",
+          "sortOrder": 1
+        },
+        "medium": {
+          "displayName": "Medium",
+          "sortOrder": 2
+        },
+        "large": {
+          "displayName": "Large",
+          "sortOrder": 3
+        }
+      }
+    }
+  }
+}

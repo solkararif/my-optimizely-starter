@@ -1,0 +1,5 @@
+fragment LandingSectionData on LandingSection {
+  heading
+  subtitle
+  sections { ...IContentListItem }
+}

@@ -1,0 +1,27 @@
+{
+  "key": "TileColumnDisplayTemplate",
+  "displayName": "TileColumnDisplayTemplate",
+  "nodeType": "column",
+  "isDefault": false,
+  "settings": {
+    "background": {
+      "displayName": "Background Color",
+      "editor": "select",
+      "sortOrder": 0,
+      "choices": {
+        "red": {
+          "displayName": "Red",
+          "sortOrder": 1
+        },
+        "black": {
+          "displayName": "Black",
+          "sortOrder": 2
+        },
+        "grey": {
+          "displayName": "Grey",
+          "sortOrder": 3
+        }
+      }
+    }
+  }
+}

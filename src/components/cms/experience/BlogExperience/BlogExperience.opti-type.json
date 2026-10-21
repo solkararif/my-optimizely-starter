@@ -1,0 +1,54 @@
+{
+  "key": "BlogExperience",
+  "displayName": "Blog Experience",
+  "description": "",
+  "baseType": "_experience",
+  "isContract": false,
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "contracts": [],
+  "properties": {
+    "title": {
+      "type": "string",
+      "displayName": "Title",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    },
+    "subtitle": {
+      "type": "string",
+      "displayName": "Subtitle",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    },
+    "articles": {
+      "type": "array",
+      "displayName": "Articles",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": [],
+      "items": {
+        "type": "content",
+        "allowedTypes": [
+          "BlogCard"
+        ],
+        "restrictedTypes": []
+      }
+    }
+  }
+}

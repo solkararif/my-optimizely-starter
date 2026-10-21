@@ -1,0 +1,6 @@
+fragment HeroPropertyData on HeroProperty {
+  heading
+  summary
+  background { ...ReferenceData }
+  theme
+}

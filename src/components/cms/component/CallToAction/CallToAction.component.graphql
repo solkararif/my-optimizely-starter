@@ -1,0 +1,4 @@
+fragment CallToActionData on CallToAction {
+  label
+  link
+}

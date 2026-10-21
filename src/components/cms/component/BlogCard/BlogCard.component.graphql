@@ -1,0 +1,6 @@
+fragment BlogCardData on BlogCard {
+  title
+  subtitle
+  author
+  date
+}

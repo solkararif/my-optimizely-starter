@@ -1,0 +1,47 @@
+{
+  "key": "Article",
+  "displayName": "Article page",
+  "description": "",
+  "baseType": "_page",
+  "isContract": false,
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "contracts": [],
+  "properties": {
+    "heading": {
+      "type": "string",
+      "displayName": "The Headline 😊",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    },
+    "subtitle": {
+      "type": "string",
+      "displayName": "SUBTITLE!!!!!!",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    },
+    "body": {
+      "type": "richText",
+      "displayName": "body 🐈",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "key": "Landing",
+  "displayName": "Landing page",
+  "description": "",
+  "baseType": "_page",
+  "isContract": false,
+  "sortOrder": 0,
+  "mayContainTypes": [],
+  "mediaFileExtensions": [],
+  "compositionBehaviors": [],
+  "contracts": [],
+  "properties": {
+    "hero": {
+      "type": "component",
+      "contentType": "Hero",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": []
+    },
+    "sections": {
+      "type": "array",
+      "displayName": "",
+      "description": "",
+      "localized": false,
+      "required": false,
+      "group": "Information",
+      "sortOrder": 0,
+      "allowedTypes": [],
+      "restrictedTypes": [],
+      "items": {
+        "type": "content",
+        "allowedTypes": [
+          "LandingSection"
+        ],
+        "restrictedTypes": []
+      }
+    }
+  }
+}

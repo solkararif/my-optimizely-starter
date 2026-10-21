@@ -1,0 +1,27 @@
+{
+  "key": "SquareDisplayTemplate",
+  "displayName": "SquareDisplayTemplate",
+  "baseType": "_component",
+  "isDefault": false,
+  "settings": {
+    "color": {
+      "displayName": "Description font color",
+      "editor": "select",
+      "sortOrder": 0,
+      "choices": {
+        "yellow": {
+          "displayName": "Yellow",
+          "sortOrder": 1
+        },
+        "green": {
+          "displayName": "Green",
+          "sortOrder": 2
+        },
+        "orange": {
+          "displayName": "Orange",
+          "sortOrder": 3
+        }
+      }
+    }
+  }
+}

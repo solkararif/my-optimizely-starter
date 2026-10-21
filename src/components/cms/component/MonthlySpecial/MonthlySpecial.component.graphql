@@ -1,0 +1,5 @@
+fragment MonthlySpecialData on MonthlySpecial {
+  title
+  subtitle
+  blog { ...BlockData }
+}

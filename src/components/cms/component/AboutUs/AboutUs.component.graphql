@@ -1,0 +1,5 @@
+fragment AboutUsData on AboutUs {
+  heading
+  body { json, html }
+  image { ...ReferenceData }
+}

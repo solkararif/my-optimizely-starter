@@ -1,0 +1,6 @@
+fragment HeroData on Hero {
+  heading
+  summary
+  background { ...ReferenceData }
+  theme
+}

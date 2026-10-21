@@ -1,0 +1,4 @@
+fragment LandingData on Landing {
+  hero { ...HeroPropertyData }
+  sections { ...IContentListItem }
+}

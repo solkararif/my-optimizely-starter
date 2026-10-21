@@ -1,0 +1,426 @@
+[
+  {
+    "propertyName": "title",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "subtitle",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "section",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "heading",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "body",
+    "propertyType": "richText"
+  },
+  {
+    "propertyName": "image",
+    "propertyType": "contentReference"
+  },
+  {
+    "propertyName": "articleListCount",
+    "propertyType": "integer"
+  },
+  {
+    "propertyName": "topics",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "submit",
+    "propertyType": "link"
+  },
+  {
+    "propertyName": "BlankExperienceSeoSettings",
+    "propertyType": "component"
+  },
+  {
+    "propertyName": "MetaTitle",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "MetaDescription",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "MetaKeywords",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "SharingImage",
+    "propertyType": "contentReference"
+  },
+  {
+    "propertyName": "GraphType",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "author",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "date",
+    "propertyType": "dateTime"
+  },
+  {
+    "propertyName": "articles",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "seo_data",
+    "propertyType": "component"
+  },
+  {
+    "propertyName": "label",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "link",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "ElementDeliveryApiKey",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "ElementRecommendationCount",
+    "propertyType": "integer"
+  },
+  {
+    "propertyName": "topline",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "shared",
+    "propertyType": "boolean"
+  },
+  {
+    "propertyName": "content",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "Text",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "Link",
+    "propertyType": "url"
+  },
+  {
+    "propertyName": "headingText",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "summary",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "background",
+    "propertyType": "contentReference"
+  },
+  {
+    "propertyName": "theme",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "altText",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "imageLink",
+    "propertyType": "contentReference"
+  },
+  {
+    "propertyName": "hero",
+    "propertyType": "component"
+  },
+  {
+    "propertyName": "sections",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "name",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "city",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "address",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "phone",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "blog",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "offices",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "text",
+    "propertyType": "richText"
+  },
+  {
+    "propertyName": "smallFeatures",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "customerName",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "customerLocation",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "customerImage",
+    "propertyType": "contentReference"
+  },
+  {
+    "propertyName": "referenceTitle",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "referenceText",
+    "propertyType": "richText"
+  },
+  {
+    "propertyName": "description",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "video",
+    "propertyType": "contentReference"
+  },
+  {
+    "propertyName": "placeholder",
+    "propertyType": "contentReference"
+  },
+  {
+    "propertyName": "thumbnail_image",
+    "propertyType": "contentReference"
+  },
+  {
+    "propertyName": "thumbnail_caption",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "video_link",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "Heading",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "ArticleSubHeading",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "Topic",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "BlogPostBody",
+    "propertyType": "richText"
+  },
+  {
+    "propertyName": "ArticleAuthor",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "BlogPostPromoImage",
+    "propertyType": "contentReference"
+  },
+  {
+    "propertyName": "continueReading",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "SeoSettings",
+    "propertyType": "component"
+  },
+  {
+    "propertyName": "ButtonText",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "ButtonUrl",
+    "propertyType": "url"
+  },
+  {
+    "propertyName": "ButtonClass",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "ButtonType",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "ButtonVariant",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "CarouselItemsContentArea",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "HeroImage",
+    "propertyType": "contentReference"
+  },
+  {
+    "propertyName": "Icon",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "Eyebrow",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "SubHeading",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "Description",
+    "propertyType": "richText"
+  },
+  {
+    "propertyName": "HeroColor",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "HeroButton",
+    "propertyType": "component"
+  },
+  {
+    "propertyName": "TopContentArea",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "MainContentArea",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "MenuNavigationHeading",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "NavigationLinks",
+    "propertyType": "link"
+  },
+  {
+    "propertyName": "ContentId",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "QuoteText",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "QuoteColor",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "QuoteProfilePicture",
+    "propertyType": "contentReference"
+  },
+  {
+    "propertyName": "QuoteProfileName",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "QuoteProfileLocation",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "QuoteActive",
+    "propertyType": "boolean"
+  },
+  {
+    "propertyName": "TextBlockOverline",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "TextBlockHeading",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "TextBlockHeadingSize",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "TextBlockDescription",
+    "propertyType": "richText"
+  },
+  {
+    "propertyName": "TextBlockWidth",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "TextCenter",
+    "propertyType": "boolean"
+  },
+  {
+    "propertyName": "TextClassName",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "AltText",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "mainMenu",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "contactInfoHeading",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "serviceButtons",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "contactInfo",
+    "propertyType": "richText"
+  },
+  {
+    "propertyName": "footerMenus",
+    "propertyType": "content"
+  },
+  {
+    "propertyName": "copyright",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "legalLinks",
+    "propertyType": "link"
+  },
+  {
+    "propertyName": "appIdentifiers",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "MenuMenuHeading",
+    "propertyType": "string"
+  },
+  {
+    "propertyName": "MegaMenuUrl",
+    "propertyType": "url"
+  },
+  {
+    "propertyName": "MegaMenuContentArea",
+    "propertyType": "content"
+  }
+]
